@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
-namespace: solar-system
 metadata:
   labels:
     app: solar-system
   name: solar-system
+  namespace: solar-system
 spec:
   replicas: 3
   selector:
